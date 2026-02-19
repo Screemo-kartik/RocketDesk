@@ -57,14 +57,20 @@ export default function Hero() {
 
           {/* Heading */}
           <h1
-            className="
-              text-white font-bold leading-tight tracking-tight
-              text-10xl sm:text-5xl md:text-6xl lg:text-7xl
-            "
-          >
-            We design brands <br />
-            that move <span className="text-orange-500">people</span>
-          </h1>
+  className="
+    text-white font-bold tracking-tight
+    leading-[1.05]
+    text-[42px]
+    sm:text-5xl
+    md:text-6xl
+    lg:text-7xl
+    xl:text-[80px]
+  "
+>
+  We design brands <br />
+  that move <span className="text-orange-500">people</span>
+</h1>
+
 
           {/* Subtext (RESPONSIVE FIX) */}
           <p className="mt-6 mx-auto  text-gray-300 text-[16px] leading-relaxed">
