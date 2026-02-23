@@ -153,13 +153,13 @@ export default function Navbar() {
             Home
           </button>
 
-          <button onClick={() => handleScroll("about")}>
+          <Link href="/about" onClick={() => setIsOpen(false)}>
             About
-          </button>
+          </Link>
 
-          <button onClick={() => handleScroll("projects")}>
+          <Link href="/projects" onClick={() => setIsOpen(false)}>
             Projects
-          </button>
+          </Link>
 
           <Link href="/blog" onClick={() => setIsOpen(false)}>
             Blog
@@ -169,7 +169,7 @@ export default function Navbar() {
             Contact
           </Link>
 
-          <ShimmerButton href="/contact">
+          <ShimmerButton href="https://calendly.com/monsterkartik07/30min"> 
             Book a call
           </ShimmerButton>
         </div>

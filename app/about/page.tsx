@@ -55,7 +55,7 @@ nodeCount={45}
 </section>
 
       {/* ================= STORY SECTION ================= */}
-      {/* ================= STORY SECTION ================= */}
+      
 <section className="relative py-32 border-b border-white/10 overflow-hidden">
 
   {/* Background Glow */}
@@ -198,7 +198,7 @@ nodeCount={45}
 
 
 
-      {/* ================= TEAM SECTION ================= */}
+      
 {/* ================= TEAM SECTION ================= */}
 <section className="relative py-32 border-b border-white/10 overflow-hidden">
 
@@ -216,7 +216,7 @@ nodeCount={45}
       </span>
 
       <h2 className="text-4xl md:text-5xl font-bold text-white">
-        Meet the minds behind the work
+        Meet The Minds Behind RocketDesk
       </h2>
     </div>
 
@@ -225,25 +225,25 @@ nodeCount={45}
 
       {[
         {
-          name: "Alex Morgan",
-          role: "Founder & Strategist",
-          image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=800",
+          name: "Kartik Singh",
+          role: "Founder & Full Stack Architect",
+          image: "/images/kartik.png",
           description:
-            "Leads strategy, product vision, and AI-driven digital transformation initiatives.",
+            "Drives the technical foundation of RocketDesk — engineering scalable, high-performance web and AI systems from concept to deployment.",
         },
         {
-          name: "Sophia Lee",
-          role: "Product Designer",
-          image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800",
+          name: "Prajjwal Sharma",
+          role: "Head of Strategy & Growth",
+          image: "/images/pj.png",
           description:
-            "Designs intuitive user experiences focused on clarity, usability, and performance.",
+            "Leads strategy, client relations, and growth — ensuring every solution delivers measurable business results.",
         },
         {
-          name: "Daniel Cruz",
-          role: "AI Engineer",
-          image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800",
+          name: "Maheek ",
+          role: "Creative Director",
+          image: "/images/maheek.png",
           description:
-            "Builds scalable AI automation systems that streamline workflows and growth.",
+            "Shapes the visual identity and user experience — designing bold, conversion-focused digital products.",
         },
       ].map((member, index) => (
         <div
@@ -252,7 +252,7 @@ nodeCount={45}
         >
           <FlipCard
             image={member.image}
-            title={member.name}
+            //title={member.name}
             subtitle={member.role}
             description={member.description}
             rotate="y"

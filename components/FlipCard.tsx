@@ -5,7 +5,7 @@ import { useState } from "react";
 
 interface FlipCardProps extends React.HTMLAttributes<HTMLDivElement> {
   image: string;
-  title: string;
+  //title: string;
   description: string;
   subtitle?: string;
   rotate?: "x" | "y";
@@ -13,7 +13,7 @@ interface FlipCardProps extends React.HTMLAttributes<HTMLDivElement> {
 
 export default function FlipCard({
   image,
-  title,
+  //title,
   description,
   subtitle,
   rotate = "y",
@@ -55,12 +55,10 @@ export default function FlipCard({
         <div className="absolute h-full w-full [backface-visibility:hidden]">
           <img
             src={image}
-            alt={title}
+            //alt={title}
             className="h-full w-full rounded-2xl object-cover shadow-2xl shadow-black/40"
           />
-          <div className="absolute bottom-4 left-4 text-xl font-bold text-white">
-            {title}
-          </div>
+          
         </div>
 
         {/* BACK */}
@@ -71,7 +69,7 @@ export default function FlipCard({
           )}
         >
           <div className="flex min-h-full flex-col gap-2">
-            <h1 className="text-xl font-bold text-white">
+            <h1 className="text-xl font-bold text-orange-400">
               {subtitle}
             </h1>
             <p className="mt-1 border-t border-gray-200 py-4 text-base font-medium leading-normal text-gray-100">
